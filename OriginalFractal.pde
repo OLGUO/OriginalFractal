@@ -1,12 +1,12 @@
 void setup() {
   background(0);
-  size(600, 600);
-  sierpinski(0, 0, 600, 600); 
+  size(1000, 1000);
+  sierpinski(0, 0, 1000, 1000); 
 }
 
 void mousePressed() {
-  background(0);
-  sierpinski(0, 0, 600, 600); 
+  background(255);
+  sierpinski(0, 0, 1000, 1000); 
 }
 
 void draw(){
